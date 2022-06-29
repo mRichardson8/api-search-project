@@ -5,6 +5,13 @@ header{
     align-items: center;
     background-color: lightgray ;
     border-radius: 25%;
+    height: 30vh;
+}
+
+header p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 main{
@@ -13,4 +20,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main p{
+    font-size: 1rem;
 }
