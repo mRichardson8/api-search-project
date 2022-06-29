@@ -36,14 +36,18 @@ div.search-result{
     border: 1px solid   #555;
     background-color: #EEE;
     border-radius: 8px;
-    width: 40vw;
+    width: 55vw;
     margin : 5px;
     min-width: 300px;
 }
 
 div.search-result :nth-child(2){
-    text-decoration: underline;
     color: blue;
+}
+
+div.search-result :nth-child(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #Search{

@@ -35,8 +35,8 @@ function displayObject(data){
     name.innerText=data.name
     url.innerText=data.url
     description.innerText=data.description
-    div.appendChild(name)
     div.appendChild(url)
+    div.appendChild(name)
     div.appendChild(description)
     sectionSearch.appendChild(div)
 }
