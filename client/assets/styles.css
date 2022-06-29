@@ -5,7 +5,7 @@ header{
 }
 
 header img{
-    width: 50%;
+    width: 35%;
     margin: 30px;
     
 }
@@ -17,6 +17,13 @@ header img{
     margin: 20px;
 }
 
+#search-div input{
+    width: 50%;
+    height: 2rem;
+    border-radius : 12px;
+    border: 1px solid lightgray;
+}
+
 div * {
     margin: 10px;
 
@@ -26,11 +33,12 @@ div.search-result{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid   #333;
-    background-color: lightgray;
+    border: 1px solid   #555;
+    background-color: #EEE;
     border-radius: 8px;
     width: 40vw;
     margin : 5px;
+    min-width: 300px;
 }
 
 div.search-result :nth-child(2){
@@ -42,7 +50,12 @@ div.search-result :nth-child(2){
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-left: 5vw;
     
+}
+
+#button-div button{
+    border: none;
+    height: 2rem;
 }
 
