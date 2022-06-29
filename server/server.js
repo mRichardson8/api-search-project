@@ -29,6 +29,7 @@ app.get(('/search') , (req,res) => {
 app.use(cors());
 
 app.set('view engine','ejs')
+app.use(express.static(__dirname + '/public'))
 
 app.get(('/test'),(req,res)=>{
     res.render('page',{details:search[0]})
@@ -40,5 +41,6 @@ app.get(('/') , (req,res) => {
     res.send('Hello World!')
 })
 
-app.listen(3000);
+const port = 3000;
+app.listen(port);
 

@@ -29,10 +29,13 @@ function displayObject(data){
     let name= document.createElement('h3')
     let url =document.createElement('p')
     let description= document.createElement('p')
+    let div = document.createElement('div')
+    div.classList += 'search-result'
     name.innerText=data.name
     url.innerText=data.url
     description.innerText=data.description
-    sectionSearch.appendChild(name)
-    sectionSearch.appendChild(url)
-    sectionSearch.appendChild(description)
+    div.appendChild(name)
+    div.appendChild(url)
+    div.appendChild(description)
+    sectionSearch.appendChild(div)
 }

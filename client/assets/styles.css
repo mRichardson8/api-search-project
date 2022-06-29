@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header img{
+    width: 50%;
+    margin: 30px;
+    
+}
+
+#button-div, #search-div{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin: 20px;
+}
+
+div * {
+    margin: 10px;
+
+}
+
+div.search-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid   #333;
+    background-color: lightgray;
+    border-radius: 8px;
+    width: 50vw;
+    margin : 5px;
+}
+
+div.search-result :nth-child(2){
+    text-decoration: underline;
+    color: blue;
+}
+
+#Search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
