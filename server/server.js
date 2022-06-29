@@ -67,9 +67,9 @@ app.get(('/search') , (req,res) => {
 
 
 
-
-app.get(('/test'),(req,res)=>{
-    res.render('page',{details:search[0]})
+app.get(('/page/:id'),(req,res)=>{
+    let id = parseInt(req.params.id)
+    res.render('page',{details: search[id]})
 })
 
 

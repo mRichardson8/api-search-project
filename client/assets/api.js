@@ -19,7 +19,8 @@ resultsBtn.addEventListener('click' , (e) =>{
 })
 
 getResultBtn.addEventListener('click' , (e) =>{
-    window.location.href = "http://localhost:3000/test";
+    let randomPage = Math.floor(Math.random() * 10)
+    window.location.href = `http://localhost:3000/page/${randomPage}`;
 })
 
 
