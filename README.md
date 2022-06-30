@@ -9,7 +9,5 @@
 ### Usage
 - Navigate to the server folder
 - Run `npm run dev-start`
-- Open a new terminal and navigate to the client folder
-- Open the file `index.html` with liveServer
-- The front-end can be accessed from localhost:3000
+- Access the front-end on Netlify from `https://definitely-better-google.netlify.app/ `
 
