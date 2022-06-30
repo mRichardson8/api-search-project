@@ -19,7 +19,8 @@ resultsBtn.addEventListener('click' , (e) =>{
 })
 
 getResultBtn.addEventListener('click' , (e) =>{
-    window.location.href = "http://localhost:3000/test";
+    let randomPage = Math.floor(Math.random() * 10)
+    window.location.href = `http://localhost:3000/page/${randomPage}`;
 })
 
 
@@ -29,10 +30,13 @@ function displayObject(data){
     let name= document.createElement('h3')
     let url =document.createElement('p')
     let description= document.createElement('p')
+    let div = document.createElement('div')
+    div.classList += 'search-result'
     name.innerText=data.name
     url.innerText=data.url
     description.innerText=data.description
-    sectionSearch.appendChild(name)
-    sectionSearch.appendChild(url)
-    sectionSearch.appendChild(description)
+    div.appendChild(url)
+    div.appendChild(name)
+    div.appendChild(description)
+    sectionSearch.appendChild(div)
 }

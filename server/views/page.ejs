@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/page.css">
 </head>
 <body>
     <header>
-        <h1><%= details.name %></h1>
-        <p><%= details.description %></p>
+        <h1>Welcome to <%= details.name %></h1>
+        <p>The best way to describe us is: <br><br> <%= details.description %></p>
     </header>
+    <main>
+        <p>This is our very real official site, but you can also find us <a href="<%= details.url %>">here</a></p>
+    </main>
 </body>
 </html>
