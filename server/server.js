@@ -48,7 +48,7 @@ const search=[{
 },
 {
     name:'WHSmith: Books, stationery, gifts and much more',
-    url:'https://www.whsmiths.co.uk',
+    url:'https://www.whsmith.co.uk',
     description:'Welcome to WHSmith. Here you can find stationery, books, toys and games and many more products. Shop online or find out more about us.',
 },
 {
